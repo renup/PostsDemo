@@ -12,26 +12,37 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             
-            VStack {
-                List(viewModel.sectionPosts) { section in
-                    
-                    Section(header: Text("user \(section.userId)")) {
-                        ForEach(section.posts) { post in
-                            
-                            postCell(post)
-                            
-                        }
+            switch viewModel.state {
+            case .initial:
+                Text("Displaying the posts")
+            case .loading:
+                Text("Loading...")
+            case .loaded:
+                loadPosts()
+            case .error:
+                Text("Sorry! something went wrong..")
+            }            
+        }
+        .font(.body).bold()
+    }
+    
+    private func loadPosts() -> some View {
+        VStack {
+            List(viewModel.sectionPosts) { section in
+                
+                Section(header: Text("user \(section.userId)")) {
+                    ForEach(section.posts) { post in
+                        
+                        postCell(post)
+                        
                     }
                 }
-                .navigationTitle("Posts")
-                .background(.black)
-                .foregroundColor(.green)
-                .onAppear {
-                    viewModel.getPostsAsyncAwait()
-//                    viewModel.addPost()
-                }
             }
+            .navigationTitle("Posts")
+            .background(.black)
+            .foregroundColor(.green)
         }
+        
     }
     
     private func postCell(_ post: Post) -> some View {

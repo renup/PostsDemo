@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7C4307562A62866C006ED919 /* PostsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4307552A62866C006ED919 /* PostsServiceTests.swift */; };
+		7C4307642A63637C006ED919 /* AsyncState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4307632A63637C006ED919 /* AsyncState.swift */; };
 		7CD7474A2A62131C0026A2F9 /* postsSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CD747492A62131C0026A2F9 /* postsSuccess.json */; };
 		7CD7474C2A6213240026A2F9 /* postsFailure.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CD7474B2A6213240026A2F9 /* postsFailure.json */; };
 		7CED45AD2A4519550030B432 /* PostsDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CED45AC2A4519550030B432 /* PostsDemoApp.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		7C4307542A627F35006ED919 /* PostsDemo.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = PostsDemo.xctestplan; sourceTree = "<group>"; };
 		7C4307552A62866C006ED919 /* PostsServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsServiceTests.swift; sourceTree = "<group>"; };
+		7C4307632A63637C006ED919 /* AsyncState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncState.swift; sourceTree = "<group>"; };
 		7CD747492A62131C0026A2F9 /* postsSuccess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = postsSuccess.json; sourceTree = "<group>"; };
 		7CD7474B2A6213240026A2F9 /* postsFailure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = postsFailure.json; sourceTree = "<group>"; };
 		7CED45A92A4519550030B432 /* PostsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +114,14 @@
 			path = MockData;
 			sourceTree = "<group>";
 		};
+		7C4307622A63636E006ED919 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7C4307632A63637C006ED919 /* AsyncState.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		7CED45A02A4519550030B432 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +146,7 @@
 		7CED45AB2A4519550030B432 /* PostsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7C4307622A63636E006ED919 /* Shared */,
 				7C43075F2A63630B006ED919 /* Screens */,
 				7CED45AC2A4519550030B432 /* PostsDemoApp.swift */,
 				7CED45B02A4519570030B432 /* Assets.xcassets */,
@@ -303,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4307642A63637C006ED919 /* AsyncState.swift in Sources */,
 				7CED45DB2A451C0F0030B432 /* PostsService.swift in Sources */,
 				7CED45AF2A4519550030B432 /* ContentView.swift in Sources */,
 				7CED45AD2A4519550030B432 /* PostsDemoApp.swift in Sources */,

@@ -22,29 +22,38 @@ struct PostData: Codable {
 
 final class PostsViewModel: ObservableObject {
     @Published var sectionPosts = [SectionData]()
+    @Published var state: AsyncState = .initial
+    
     var cancellables = Set<AnyCancellable>()
     
     let service: PostsServiceProtocol
     
     init(service: PostsServiceProtocol = PostsService()) {
         self.service = service
+        Task {
+            await getPostsAsyncAwait()
+        }
     }
     
     @MainActor func getPostsAsyncAwait() {
+        state = .loading
         Task {
             do {
                 let posts: [Post] = try await service.fetchPostsUsingAsyncAwait()
                 self.sectionPosts = self.processPosts(posts)
+                state = .loaded
             } catch {
                 if let error = error as? APIError {
                    print(error.description)
                 } else {
                     print(error.localizedDescription)
                 }
+                state = .error
             }
         }
     }
-    
+ 
+    // Example of a POST call
 //    @MainActor func addPost() {
 //        Task {
 //            do {
