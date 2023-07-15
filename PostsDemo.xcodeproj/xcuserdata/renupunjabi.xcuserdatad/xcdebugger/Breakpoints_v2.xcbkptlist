@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F56B743C-3668-4BC3-BF92-9762C23287EA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C27889ED-A0F2-44F3-8AF8-F602E62C5510"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsDemo/PostsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "addPost(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F38CBBD1-67EE-4A16-A428-AE7DA9346926"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsDemo/PostsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "addPost(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5B3E85E-31CB-4C6F-8A69-9346A1D10E4E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsDemo/PostsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "addPost(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F42A3EA3-1118-4FE7-B536-6BAE295C3650"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsDemo/PostsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "addPost(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEE9FF48-BD16-40BA-8F6F-F88BA5AA4C5D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsDemo/PostsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "addPost(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BCD92D55-15DC-4EBB-B03F-3C870E2D2CFE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsDemo/PostsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getPostsAsyncAwait()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BCD92D55-15DC-4EBB-B03F-3C870E2D2CFE - ed9aa88516179ab8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PostsDemo.PostsViewModel.getPostsAsyncAwait() -&gt; ()"
+                  moduleName = "PostsDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemo/PostsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "BCD92D55-15DC-4EBB-B03F-3C870E2D2CFE - c2040a938109228d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in PostsDemo.PostsViewModel.getPostsAsyncAwait() -&gt; ()"
+                  moduleName = "PostsDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemo/PostsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "BCD92D55-15DC-4EBB-B03F-3C870E2D2CFE - 26e94575d0d446b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PostsDemo.PostsViewModel.getPostsAsyncAwait() -&gt; ()"
+                  moduleName = "PostsDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemo/PostsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "BCD92D55-15DC-4EBB-B03F-3C870E2D2CFE - 83bfcb9c323518a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in PostsDemo.PostsViewModel.getPostsAsyncAwait() -&gt; ()"
+                  moduleName = "PostsDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemo/PostsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7399337F-3C0A-417A-9908-A3F20C604AFD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsDemo/PostsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getPostsAsyncAwait()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B51D8628-991B-4151-969D-DEF1C1F3FC1A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsDemoTests/PostsDemoTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "fetchPostsUsingAsyncAwait()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B51D8628-991B-4151-969D-DEF1C1F3FC1A - 2c243f10cc872e0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "B51D8628-991B-4151-969D-DEF1C1F3FC1A - 2c243f10cc872e0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "B51D8628-991B-4151-969D-DEF1C1F3FC1A - 2c243f10cc872e0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "B51D8628-991B-4151-969D-DEF1C1F3FC1A - 2c243f10cc872a4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "B51D8628-991B-4151-969D-DEF1C1F3FC1A - 2c243f10cc8720e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "B51D8628-991B-4151-969D-DEF1C1F3FC1A - 2c243f10cc872704"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "220">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6533B451-3D62-4309-96BE-DA5EBC8B18EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsDemoTests/PostsDemoTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "fetchPostsUsingAsyncAwait()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6533B451-3D62-4309-96BE-DA5EBC8B18EB - 2c243f10cc872fe9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "6533B451-3D62-4309-96BE-DA5EBC8B18EB - 2c243f10cc872f02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "692">
+               </Location>
+               <Location
+                  uuid = "6533B451-3D62-4309-96BE-DA5EBC8B18EB - 2c243f10cc872b45"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "692">
+               </Location>
+               <Location
+                  uuid = "6533B451-3D62-4309-96BE-DA5EBC8B18EB - 2c243f10cc8721db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "692">
+               </Location>
+               <Location
+                  uuid = "6533B451-3D62-4309-96BE-DA5EBC8B18EB - 2c243f10cc8721fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "692">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6ED5D608-894D-4490-A78A-4B4C7EAD443F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsDemoTests/PostsDemoTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "fetchPostsUsingAsyncAwait()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6ED5D608-894D-4490-A78A-4B4C7EAD443F - 2c243f10cc872fa7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "6ED5D608-894D-4490-A78A-4B4C7EAD443F - 2c243f10cc872f02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "692">
+               </Location>
+               <Location
+                  uuid = "6ED5D608-894D-4490-A78A-4B4C7EAD443F - 2c243f10cc872b45"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "692">
+               </Location>
+               <Location
+                  uuid = "6ED5D608-894D-4490-A78A-4B4C7EAD443F - 2c243f10cc8721db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "692">
+               </Location>
+               <Location
+                  uuid = "6ED5D608-894D-4490-A78A-4B4C7EAD443F - 2c243f10cc8721fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "692">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03077CE7-2A75-4E14-B120-B46CA419F1B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsDemoTests/PostsDemoTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "fetchPostsUsingAsyncAwait()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "03077CE7-2A75-4E14-B120-B46CA419F1B4 - 2c243f10cc872f65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "892">
+               </Location>
+               <Location
+                  uuid = "03077CE7-2A75-4E14-B120-B46CA419F1B4 - 2c243f10cc872ba8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "892">
+               </Location>
+               <Location
+                  uuid = "03077CE7-2A75-4E14-B120-B46CA419F1B4 - 2c243f10cc87203e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "892">
+               </Location>
+               <Location
+                  uuid = "03077CE7-2A75-4E14-B120-B46CA419F1B4 - 2c243f10cc87205f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "892">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D71D9AF2-6CCB-4DC7-B157-6BAD49E37488"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsDemoTests/PostsDemoTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "fetchPostsUsingAsyncAwait()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D71D9AF2-6CCB-4DC7-B157-6BAD49E37488 - 2c243f10cc872fc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "D71D9AF2-6CCB-4DC7-B157-6BAD49E37488 - 2c243f10cc872a0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "D71D9AF2-6CCB-4DC7-B157-6BAD49E37488 - 2c243f10cc8720a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "D71D9AF2-6CCB-4DC7-B157-6BAD49E37488 - 2c243f10cc8720c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PostsDemoTests.MockPostsService.fetchPostsUsingAsyncAwait() async throws -&gt; Swift.Array&lt;PostsDemo.Post&gt;"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4016D9CC-1B9A-4ED6-B274-45E95AB95334"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsDemoTests/PostsDemoTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "test_getPostsUsingFuture_should_fail()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4016D9CC-1B9A-4ED6-B274-45E95AB95334 - 9a9abcb5867ed305"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;PostsDemo.SectionData&gt;) -&gt; () in PostsDemoTests.PostsDemoTests.test_getPostsUsingFuture_should_fail() -&gt; ()"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "4016D9CC-1B9A-4ED6-B274-45E95AB95334 - 9a9abcb5867ed2e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;PostsDemo.SectionData&gt;) -&gt; () in PostsDemoTests.PostsDemoTests.test_getPostsUsingFuture_should_fail() -&gt; ()"
+                  moduleName = "PostsDemoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renupunjabi/Downloads/PostsDemo/PostsDemoTests/PostsDemoTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C1CA0DA-9E19-4CB2-B362-7BDB4EFE0E32"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PostsDemoTests/PostsDemoTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "test_getPostsAsyncAwait_should_succeed()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
