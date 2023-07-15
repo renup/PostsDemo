@@ -24,6 +24,8 @@ struct ContentView: View {
                     }
                 }
                 .navigationTitle("Posts")
+                .background(.black)
+                .foregroundColor(.green)
                 .onAppear {
                     viewModel.getPostsAsyncAwait()
 //                    viewModel.addPost()

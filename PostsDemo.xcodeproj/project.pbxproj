@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C4307562A62866C006ED919 /* PostsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4307552A62866C006ED919 /* PostsServiceTests.swift */; };
 		7CD7474A2A62131C0026A2F9 /* postsSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CD747492A62131C0026A2F9 /* postsSuccess.json */; };
 		7CD7474C2A6213240026A2F9 /* postsFailure.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CD7474B2A6213240026A2F9 /* postsFailure.json */; };
 		7CED45AD2A4519550030B432 /* PostsDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CED45AC2A4519550030B432 /* PostsDemoApp.swift */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C4307542A627F35006ED919 /* PostsDemo.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = PostsDemo.xctestplan; sourceTree = "<group>"; };
+		7C4307552A62866C006ED919 /* PostsServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsServiceTests.swift; sourceTree = "<group>"; };
 		7CD747492A62131C0026A2F9 /* postsSuccess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = postsSuccess.json; sourceTree = "<group>"; };
 		7CD7474B2A6213240026A2F9 /* postsFailure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = postsFailure.json; sourceTree = "<group>"; };
 		7CED45A92A4519550030B432 /* PostsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,9 +84,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C43075F2A63630B006ED919 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7C4307602A636312006ED919 /* PostsList */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		7C4307602A636312006ED919 /* PostsList */ = {
+			isa = PBXGroup;
+			children = (
+				7CED45DA2A451C0F0030B432 /* PostsService.swift */,
+				7CED45D82A4519D50030B432 /* Post.swift */,
+				7CED45D62A4519A60030B432 /* PostsViewModel.swift */,
+				7CED45AE2A4519550030B432 /* ContentView.swift */,
+			);
+			path = PostsList;
+			sourceTree = "<group>";
+		};
+		7C4307612A636333006ED919 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				7CD7474B2A6213240026A2F9 /* postsFailure.json */,
+				7CD747492A62131C0026A2F9 /* postsSuccess.json */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
 		7CED45A02A4519550030B432 = {
 			isa = PBXGroup;
 			children = (
+				7C4307542A627F35006ED919 /* PostsDemo.xctestplan */,
 				7CED45AB2A4519550030B432 /* PostsDemo */,
 				7CED45BC2A4519570030B432 /* PostsDemoTests */,
 				7CED45C62A4519570030B432 /* PostsDemoUITests */,
@@ -104,13 +136,10 @@
 		7CED45AB2A4519550030B432 /* PostsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7C43075F2A63630B006ED919 /* Screens */,
 				7CED45AC2A4519550030B432 /* PostsDemoApp.swift */,
-				7CED45AE2A4519550030B432 /* ContentView.swift */,
 				7CED45B02A4519570030B432 /* Assets.xcassets */,
 				7CED45B22A4519570030B432 /* Preview Content */,
-				7CED45D62A4519A60030B432 /* PostsViewModel.swift */,
-				7CED45D82A4519D50030B432 /* Post.swift */,
-				7CED45DA2A451C0F0030B432 /* PostsService.swift */,
 			);
 			path = PostsDemo;
 			sourceTree = "<group>";
@@ -126,9 +155,9 @@
 		7CED45BC2A4519570030B432 /* PostsDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				7CD7474B2A6213240026A2F9 /* postsFailure.json */,
-				7CD747492A62131C0026A2F9 /* postsSuccess.json */,
+				7C4307612A636333006ED919 /* MockData */,
 				7CED45BD2A4519570030B432 /* PostsDemoTests.swift */,
+				7C4307552A62866C006ED919 /* PostsServiceTests.swift */,
 			);
 			path = PostsDemoTests;
 			sourceTree = "<group>";
@@ -287,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CED45BE2A4519570030B432 /* PostsDemoTests.swift in Sources */,
+				7C4307562A62866C006ED919 /* PostsServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +469,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PostsDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = H226T69YR3;
 				ENABLE_PREVIEWS = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -468,6 +499,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PostsDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = H226T69YR3;
 				ENABLE_PREVIEWS = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
